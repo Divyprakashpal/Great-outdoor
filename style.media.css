@@ -1,0 +1,198 @@
+@media  (max-width:600px) {
+    .ri-menu-line{
+        display: initial;
+       
+    }
+    .page1{
+        height: 110vh;
+        width: 100vw;
+    }
+   li, i{
+    display: none;
+
+   }
+   .nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    Padding-right: 4vh;
+   }
+   .middle > h1{
+    color: white;
+    font-size: 5vmax;
+    font-weight: bold;
+    }
+    .middle > p{
+        color: white;
+        
+        font-size: 2vmax;
+        font-weight: bold;
+    }
+    .middle{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 5vh;}
+
+        .middle > img{
+            margin: 10vmax;
+            height: 8vh;
+            width: 8vh;  }
+            
+            .footer>p{
+                width: 46vmax;
+             }
+
+            /* ----------------page1 complete-------------- */
+            .page2{
+                height: 200vh;
+                width: 100vw;
+            }
+
+            .cards{
+                height: 170vh;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                padding: 2vh ;
+                
+                
+               }
+
+            .card1{
+                /* height: 60vh; */
+                width: 75vw;
+                background-color: blue;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: end;
+            }
+
+                .card2{
+                    /* height: 60vh; */
+                    width: 75vw;
+                    background-color: red;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: end;}
+                    .card3{
+                        /* height: 60vh; */
+                        width: 75vw;
+                        background-color: green;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: end;} 
+
+                        .page2> .footer{
+                            height: 15vh;
+                            width: 100vw;
+                            background-color: transparent;
+                        
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;}
+                        
+
+                        .footer>button{
+                            padding: .5vmax 2vmax;
+                            border-radius: .5vmax;
+                            border: none;
+                            color: blue;
+                            font-weight: 800;
+                            background-color: transparent;
+
+                        
+                        } 
+                        /* page2 end------------------- */
+                        .page3{
+                            height: 200vh;
+                            width: 200vw;
+                        }
+                        .middle3{
+                            height: 180vh;
+                            width: 100vw;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content:center;
+                            align-items: center;
+                            
+                        }
+                        .box1{
+                            height: 50vh;
+                            width: 80vw;
+                            transform: translateY(-15vmax);
+                            /* margin-bottom: 5vmax; */
+                            
+                        }
+                        .upbox{
+                            height: 40vh;
+                            width: 80vw;
+                            /* background-color: red; */
+                            
+                        }
+                        .downbox{
+                            height: 40vh;
+                           width: 80vw;
+                           /* background-color:crimson; */
+                        line-height: 5vmax;}
+
+                        .box2{
+                            height: 50vh;
+                            width: 80vw;
+                            margin-top: 10vmax;
+                            transform: translateY(-7vmax);
+                        }
+                        .upbox2{
+                            height: 40vh;
+                            width: 80vw;
+                            /* background-color: red; */
+                        }
+                        .downbox2{
+                            height: 40vh;
+                           width: 80vw;
+                           /* background-color:crimson; */
+                        line-height: 5vmax;}
+
+                        .footer3{
+                            height: 20vh;
+                            width: 100vw;
+                            display: flex;
+                            justify-content: center;
+                            align-items: start;
+                           background-color: black;
+
+                        }
+                        .footer3>button{
+                            font-size: 2.5vmax;
+                        }
+/* -----------------------------page3 end---------------- */
+                        
+                        .page4{
+                            height: 100vh;
+                            width: 100vw;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: end;
+                            justify-content: end;
+                        }
+                        
+                        
+
+                        
+                    
+                
+            
+            
+           
+
+        
+
+}
